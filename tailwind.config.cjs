@@ -12,6 +12,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        ubuntu:["Ubuntu", "sans-serif"],
       },
     },
     screens: {
