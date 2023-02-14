@@ -5,7 +5,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import PersonIcon from "@mui/icons-material/Person";
 const Navbar = () => {
   return (
-    <nav className="w-full flex py-6 justify-between items-center">
+    <nav className="w-full flex py-4 justify-between items-center">
       <a href="/">
         <img src={airbnb} alt="airbnb" className="w-[128px] h-[40px]" />
       </a>
