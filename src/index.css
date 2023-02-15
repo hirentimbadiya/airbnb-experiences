@@ -7,6 +7,14 @@
 * {
   scroll-behavior: smooth;
 }
+._1q59bef{
+  display: inline-block !important;
+    margin-right: 16px !important;
+    margin-left: 8px !important;
+    margin-top: 4px !important;
+    border-left: 1px solid #DDDDDD !important;
+    height: 36px !important;
+}
 
 ::-webkit-scrollbar {
   width: 0px;

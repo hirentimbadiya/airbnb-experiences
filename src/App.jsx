@@ -1,6 +1,8 @@
 import React from "react";
+import ButtonsGrp from "./components/ButtonsGrp";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import NewWeek from "./components/NewWeek";
 import styles from "./style";
 const App = () => {
   return (
@@ -12,10 +14,16 @@ const App = () => {
       </div>
       <hr />
       <div className={`${styles.paddingX}`}>
-      <div className="flex overflow-x-auto hidesb mt-4">
-        <Hero/>
+        <div>
+          <NewWeek />
+        </div>
+        <div className="flex overflow-auto hidesb mt-4">
+          <Hero />
+        </div>
+        <div>
+          <ButtonsGrp />
+        </div>
       </div>
-    </div>
     </div>
   );
 };

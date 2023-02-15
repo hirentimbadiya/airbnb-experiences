@@ -3,12 +3,8 @@ import styles from "../style";
 import { camel, masi, girl } from "../assets";
 const Hero = () => {
   return (
-    <section className={`flex flex-col`}>
-      <h1
-        className={`text-[30px] font-bold font-nato  tracking-wide mb-3 p-2`}
-      >
-        New this week
-      </h1>
+    <section className={`flex flex-col `}>
+      
       <div className="w-full">
         <div className="w-full flex flex-nowrap gap-4 ">
           <div className=" flex bg-red-600 h-[350px] w-[600px] relative rounded-xl ">
