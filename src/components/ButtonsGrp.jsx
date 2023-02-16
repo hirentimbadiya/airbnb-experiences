@@ -2,15 +2,16 @@ import React from "react";
 import { Buttons } from "../constants";
 const ButtonsGrp = () => {
   return (
-    <div className="flex flex-row justify-center w-full">
-      <div className="flex">
+    <div className="flex flex-row justify-center w-full mb-4">
+      <div className="flex mss:items-start">
         {Buttons.fThree.map((button, index) => {
           return (
             <div
               key={index}
               className={`inline-block whitespace-nowrap rounded-[30px] font-poppins
           cursor-pointer  border-gray p-1 mr-[12px] hover:border-primary 
-          border-[0.5px] text-center h-[33px] justify-center items-center tracking-wider`}
+          border-[0.5px] text-center h-[33px] justify-center items-center tracking-wider
+           mss:items-start`}
             >
               <span
                 className={`text-[12px] font-poppins p-[6px] font-extralight `}
@@ -21,8 +22,8 @@ const ButtonsGrp = () => {
           );
         })}
       </div>
-      <div class="_1q59bef" aria-hidden="true"></div>
-      <div className="flex  overflow-auto">
+      <div class="_1q59bef" aria-hidden="true" className=" mss:hidden"></div>
+      <div className="flex overflow-auto mss:hidden">
         {Buttons.others.map((button, index) => {
           return (
             <div
