@@ -12,7 +12,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        ubuntu:["Ubuntu", "sans-serif"],
+        ubuntu: ["Ubuntu", "sans-serif"],
       },
     },
     screens: {
@@ -32,6 +32,10 @@ module.exports = {
       // => @media (max-width: 767px) { ... }
       msm: { 'max': '639px' },
       // => @media (max-width: 639px) { ... }
+      mss: { 'max': '550px' },
+       // => @media (max-width: 550px) { ... }
+      mxs: { 'max': "480px" }
+       // => @media (max-width: 480px) { ... }
     },
   },
   plugins: [],
