@@ -3,6 +3,7 @@ import ButtonsGrp from "./components/ButtonsGrp";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import NewWeek from "./components/NewWeek";
+import OnlineExp from "./components/OnlineExp";
 import styles from "./style";
 const App = () => {
   return (
@@ -23,6 +24,9 @@ const App = () => {
         <div>
           <ButtonsGrp />
         </div>
+      </div>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <OnlineExp />
       </div>
     </div>
   );
