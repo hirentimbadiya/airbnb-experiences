@@ -4,14 +4,13 @@ import { camel, masi, girl } from "../assets";
 const Hero = () => {
   return (
     <section className={`flex flex-col `}>
-      
       <div className="w-full">
         <div className="w-full flex flex-nowrap gap-4 ">
-          <div className=" flex bg-red-600 h-[350px] w-[600px] relative rounded-xl ">
+          <div className=" flex h-[350px] w-[600px] msm:h-[400px] msm:w-[400px] mss:w-[300px] relative rounded-xl ">
             <img
               src={camel}
               alt=""
-              className="w-[100%] h-[100%] rounded-xl block absolute object-cover z-0"
+              className="w-[100%] h-[100%] rounded-xl block absolute object-cover msm:object-cover z-0"
             />
             <div className="z-[1] text-black p-4">
               <h3 className="text-white font-poppins">Collection</h3>
@@ -29,7 +28,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className="flex bg-red-600 h-[350px] w-[600px] relative rounded-xl ">
+          <div className="flex h-[350px] w-[600px] msm:h-[400px] msm:w-[400px] relative rounded-xl ">
             <img
               src={masi}
               alt=""
@@ -50,7 +49,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className=" flex bg-red-600 h-[350px] w-[600px] relative rounded-xl ">
+          <div className=" flex  h-[350px] w-[600px] msm:h-[400px] msm:w-[400px] relative rounded-xl ">
             <img
               src={girl}
               alt=""
