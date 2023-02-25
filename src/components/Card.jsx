@@ -1,9 +1,4 @@
 import React from "react";
-import { capman, man } from "../assets";
-import styles from "../style";
-import StarIcon from "@mui/icons-material/Star";
-import { CardsSlider, TopSellerSlider } from "../constants/index";
-import { color } from "@mui/system";
 import Trips from "./Trips";
 import TopSellers from "./TopSellers";
 import GreatGroups from "./GreatGroups";
