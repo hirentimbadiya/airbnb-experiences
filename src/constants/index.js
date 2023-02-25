@@ -274,18 +274,18 @@ export const WeekendPlanner = [
 
 export const HeroData = [
     {
-        id : 1,
-        title : "Most popular around the world",
-        img : camel
+        id: 1,
+        title: "Most popular around the world",
+        img: camel
     },
     {
-        id : 2,
-        title : "Great for team building",
-        img : masi
+        id: 2,
+        title: "Great for team building",
+        img: masi
     },
     {
-        id : 3,
-        title : "Fun for the Family",
-        img : girl
+        id: 3,
+        title: "Fun for the Family",
+        img: girl
     }
 ]
