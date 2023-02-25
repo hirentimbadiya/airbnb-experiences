@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import NewWeek from "./components/NewWeek";
 import OnlineExp from "./components/OnlineExp";
 import styles from "./style";
+import Zoom from "react-reveal/Zoom";
 const App = () => {
   return (
     <div className=" w-full overflow-hidden">
@@ -27,7 +28,9 @@ const App = () => {
         </div>
       </div>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <OnlineExp />
+        <Zoom>
+          <OnlineExp />
+        </Zoom>
       </div>
       <div className={` sm:pl-[4rem] pl-[1.5rem]`}>
         <Card />

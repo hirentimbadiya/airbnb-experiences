@@ -1,4 +1,4 @@
-import { bear, birthdaylady, bozygirl, capgirl, capman, cardman, couple, eggchef, ghummat, giraf, japanlady, laptoplady, lemon, man, mexicoman, miamigirl, monk, naninoodle, ninjachef, photographer, pizzaaunty, polandchef, puppyman, ranikivav, reader, redgreen, teacher, whitechef, wowlady } from "../assets";
+import { bear, birthdaylady, bozygirl, camel, capgirl, capman, cardman, couple, eggchef, ghummat, giraf, girl, japanlady, laptoplady, lemon, man, masi, mexicoman, miamigirl, monk, naninoodle, ninjachef, photographer, pizzaaunty, polandchef, puppyman, ranikivav, reader, redgreen, teacher, whitechef, wowlady } from "../assets";
 
 export const Buttons = {
     fThree: ["Dates", "Group size", "More filters"],
@@ -214,7 +214,7 @@ export const WeekendPlanner = [
         rating: 4.94,
         ratingNum: 1939,
         price: 1222,
-        title: "Chanting Meditation with a Japanese Monk"
+        title: "Meditation with a Japanese Monk"
     },
     {
         id: 2,
@@ -223,7 +223,7 @@ export const WeekendPlanner = [
         rating: 4.97,
         ratingNum: 52,
         price: 1214,
-        title: "Valleta Virtual Tour"
+        title: "Valleta Virtual Tour With a Local Guide"
     },
     {
         id: 3,
@@ -250,7 +250,7 @@ export const WeekendPlanner = [
         rating: 4.97,
         ratingNum: 2102,
         price: 1099,
-        title: "Plan & Design a Trip - Increadible India Unexplored"
+        title: "Increadible India Unexplored"
     },
     {
         id: 6,
@@ -259,7 +259,7 @@ export const WeekendPlanner = [
         rating: 4.99,
         ratingNum: 458,
         price: 2499,
-        title: "Advanced Taco Tuesday With a Pro Chef"
+        title: "Taco Tuesday With a Pro Chef"
     },
     {
         id: 7,
@@ -268,6 +268,24 @@ export const WeekendPlanner = [
         rating: 5.0,
         ratingNum: 399,
         price: 1399,
-        title: "The Might and Beauty Of the Great Mughal's- Agra Fort"
+        title: "Explore Beauty Of the Beautiful Agra Fort"
+    }
+]
+
+export const HeroData = [
+    {
+        id : 1,
+        title : "Most popular around the world",
+        img : camel
+    },
+    {
+        id : 2,
+        title : "Great for team building",
+        img : masi
+    },
+    {
+        id : 3,
+        title : "Fun for the Family",
+        img : girl
     }
 ]

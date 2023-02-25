@@ -1,10 +1,12 @@
 import React from 'react'
 import { GreatForGrp, TopSellerSlider } from "../constants";
 import StarIcon from "@mui/icons-material/Star";
+import Flip from 'react-reveal/Flip';
 const GreatGroups = () => {
   return (
     <>
       <div className="flex gap-6">
+        <Flip left>
         {GreatForGrp.map((card) => (
           <div key={card.id}>
             <div className="w-[170px] h-[230px]">
@@ -33,6 +35,7 @@ const GreatGroups = () => {
             </div>
           </div>
         ))}
+        </Flip>
       </div>
     </>
   )
