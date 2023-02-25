@@ -1,5 +1,6 @@
 import React from "react";
 import ButtonsGrp from "./components/ButtonsGrp";
+import Card from "./components/Card";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import NewWeek from "./components/NewWeek";
@@ -26,7 +27,10 @@ const App = () => {
         </div>
       </div>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-          <OnlineExp />
+        <OnlineExp />
+      </div>
+      <div className={` sm:pl-[4rem] pl-[1.5rem]`}>
+        <Card />
       </div>
     </div>
   );
