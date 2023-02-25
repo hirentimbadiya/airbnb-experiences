@@ -4,13 +4,6 @@ import StarIcon from "@mui/icons-material/Star";
 const Trips = () => {
   return (
     <>
-      <div className="text-primary mt-5">
-        <h1
-          className={`font-poppins w-full text-[20px] font-bold text-primary leading-9`}
-        >
-          Plan a trip with help from local Hosts around the world
-        </h1>
-      </div>
       <div className="flex gap-6">
         {CardsSlider.map((card) => (
           <div key={card.id}>

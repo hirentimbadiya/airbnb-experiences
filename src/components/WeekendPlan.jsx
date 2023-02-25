@@ -4,13 +4,6 @@ import StarIcon from "@mui/icons-material/Star";
 const WeekendPlan = () => {
   return (
     <>
-      <div className="text-primary mt-5">
-        <h1
-          className={`font-poppins w-full text-[20px] font-bold text-primary leading-9`}
-        >
-          Make Plans this Weekend
-        </h1>
-      </div>
       <div className="flex gap-6">
         {WeekendPlanner.map((card) => (
           <div key={card.id}>

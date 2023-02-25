@@ -4,13 +4,6 @@ import StarIcon from "@mui/icons-material/Star";
 const TopSellers = () => {
   return (
     <>
-      <div className="text-primary mt-5">
-        <h1
-          className={`font-poppins w-full text-[20px] font-bold text-primary leading-9`}
-        >
-          Top Sellers
-        </h1>
-      </div>
       <div className="flex gap-6">
         {TopSellerSlider.map((card) => (
           <div key={card.id}>

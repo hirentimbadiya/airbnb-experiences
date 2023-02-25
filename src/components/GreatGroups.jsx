@@ -3,15 +3,7 @@ import { GreatForGrp, TopSellerSlider } from "../constants";
 import StarIcon from "@mui/icons-material/Star";
 const GreatGroups = () => {
   return (
-    <div>
-        <>
-      <div className="text-primary mt-5">
-        <h1
-          className={`font-poppins w-full text-[20px] font-bold text-primary leading-9`}
-        >
-          Great For Groups
-        </h1>
-      </div>
+    <>
       <div className="flex gap-6">
         {GreatForGrp.map((card) => (
           <div key={card.id}>
@@ -43,7 +35,6 @@ const GreatGroups = () => {
         ))}
       </div>
     </>
-    </div>
   )
 }
 
