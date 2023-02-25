@@ -22,7 +22,7 @@ const ButtonsGrp = () => {
           );
         })}
       </div>
-      <div class="_1q59bef" aria-hidden="true" className=" mss:hidden"></div>
+      <div className="_1q59bef mss:hidden" aria-hidden="true"></div>
       <div className="flex overflow-auto mss:hidden">
         {Buttons.others.map((button, index) => {
           return (
