@@ -1,5 +1,9 @@
 # airbnb-experiences
-This project is a clone of the Airbnb Experiences webpage. It is designed to replicate the look and feel of the Airbnb website and provide users with a similar experience.
+This project is a web application built using several modern web technologies. The front-end is built using React.js, a popular JavaScript library for building user interfaces. The build process is handled by Vite, a fast and efficient build tool that allows for rapid development. Tailwind CSS is used for styling the application, providing a comprehensive set of utility classes that allow for easy customization of the application's look and feel.
+
+The application is hosted using Firebase Hosting, a powerful hosting platform that provides fast and reliable hosting for web applications. React Reveal is used to add smooth and elegant animations to the user interface, creating a more engaging and dynamic experience. Material UI is used for some of the UI components, providing a comprehensive set of pre-built components that can be easily integrated into the application.
+
+Overall, this project is a showcase of modern web technologies and best practices, demonstrating how these tools can be used together to create fast, reliable, and visually appealing web applications.
 
 ## Installation
 - To install this project, you will need to follow these steps:
