@@ -7,7 +7,7 @@ const Card = () => {
   return (
     <div>
       <div>
-        <div className="text-primary mt-5">
+        <div className="text-primary mt-5 mb-4">
           <h1
             className={`font-poppins w-full text-[20px] font-bold text-primary leading-9`}
           >
@@ -19,7 +19,7 @@ const Card = () => {
         </div>
       </div>
       <div>
-        <div className="text-primary mt-5">
+        <div className="text-primary mt-5 mb-4">
           <h1
             className={`font-poppins w-full text-[20px] font-bold text-primary leading-9`}
           >
@@ -31,7 +31,7 @@ const Card = () => {
         </div>
       </div>
       <div>
-        <div className="text-primary mt-5">
+        <div className="text-primary mt-5 mb-4">
           <h1
             className={`font-poppins w-full text-[20px] font-bold text-primary leading-9`}
           >
@@ -43,7 +43,7 @@ const Card = () => {
         </div>
       </div>
       <div>
-        <div className="text-primary mt-5">
+        <div className="text-primary mt-5 mb-4">
           <h1
             className={`font-poppins w-full text-[20px] font-bold text-primary leading-9`}
           >

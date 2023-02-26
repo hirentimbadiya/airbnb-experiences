@@ -5,7 +5,7 @@ import Flip from "react-reveal/Flip";
 const GreatGroups = () => {
   return (
     <>
-      <div className="flex gap-6">
+      <div className="flex gap-6 mb-12">
         <Flip left>
           {GreatForGrp.map((card) => (
             <div key={card.id}>

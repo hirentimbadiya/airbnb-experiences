@@ -5,7 +5,7 @@ import Flip from "react-reveal/Flip";
 const Trips = () => {
   return (
     <>
-      <div className="flex gap-6">
+      <div className="flex gap-6 mb-12">
         <Flip left>
           {CardsSlider.map((card) => (
             <div key={card.id}>
