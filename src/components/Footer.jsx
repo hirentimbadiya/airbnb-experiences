@@ -1,14 +1,15 @@
 import React from "react";
-import { footerLinks, socialMedia } from "../constants";
+import { footerLinks } from "../constants";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import LanguageIcon from "@mui/icons-material/Language";
 import FacebookIcon from "@mui/icons-material/Facebook";
 // getting the current year
 const year = new Date().getFullYear();
 
 const Footer = () => {
   return (
-    <div className=" bg-[#f6f6f3] p-8  msm:hidden">
+    <div className=" bg-[#f7f7f6] p-8  msm:hidden">
       <div
         className="flex flex-[1.5] w-full flex-row 
         justify-between flex-wrap md:mt-0 mt-10 sm:pl-[4rem] pl-[1.5rem] "
@@ -48,10 +49,23 @@ const Footer = () => {
         className="flex w-full justify-between items-center
        md:flex-row flex-col pt-6 border-t-[1px] border-t-[#403d4e]"
       >
-        <p className="text-primary text-[15px] font-normal font-poppins leading-5">
-          ©{year} Airbnb, Inc. ·Privacy · Terms ·Sitemap · Company · details
-        </p>
-        <div className="flex flex-row md:mt-0 mt-6 gap-6 cursor-pointer">
+        <div className="flex justify-center items-center">
+          <div className="flex">
+            <p className="text-primary text-[15px] font-normal font-poppins leading-5 whitespace-nowrap">
+              ©{year} Airbnb, Inc. · Privacy · Terms ·Sitemap · Company ·
+              details
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-row md:mt-0 mt-6 gap-6 cursor-pointer justify-center items-center">
+          <div className=" flex justify-center p-2">
+            <LanguageIcon />
+            <span className=" hover:underline">English(IN)</span>
+          </div>
+          <div className="flex justify-center p-1">
+            <b>₹</b>
+            <span className=" hover:underline">INR</span>
+          </div>
           <a href="https://www.facebook.com/AirbnbIndia">
             <FacebookIcon />
           </a>
