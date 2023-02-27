@@ -7,6 +7,7 @@ import NewWeek from "./components/NewWeek";
 import OnlineExp from "./components/OnlineExp";
 import styles from "./style";
 import Zoom from "react-reveal/Zoom";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <div className=" w-full overflow-hidden">
@@ -34,6 +35,9 @@ const App = () => {
       </div>
       <div className={` sm:pl-[4rem] pl-[1.5rem]`}>
         <Card />
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
   );

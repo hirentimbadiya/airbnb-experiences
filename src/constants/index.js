@@ -1,4 +1,4 @@
-import { bear, birthdaylady, bozygirl, camel, capgirl, capman, cardman, couple, eggchef, ghummat, giraf, girl, japanlady, laptoplady, lemon, man, masi, mexicoman, miamigirl, monk, naninoodle, ninjachef, photographer, pizzaaunty, polandchef, puppyman, ranikivav, reader, redgreen, teacher, whitechef, wowlady } from "../assets";
+import { bear, birthdaylady, bozygirl, camel, capgirl, capman, cardman, couple, eggchef, facebook, ghummat, giraf, girl, instagram, japanlady, laptoplady, lemon, man, masi, mexicoman, miamigirl, monk, naninoodle, ninjachef, photographer, pizzaaunty, polandchef, puppyman, ranikivav, reader, redgreen, teacher, twitter, whitechef, wowlady } from "../assets";
 
 export const Buttons = {
     fThree: ["Dates", "Group size", "More filters"],
@@ -289,3 +289,99 @@ export const HeroData = [
         img: girl
     }
 ]
+
+export const footerLinks = [
+    {
+        title: "Support",
+        links: [
+            {
+                name: "Help Center",
+            },
+            {
+                name: "AirCover",
+            },
+            {
+                name: "Supporting people with disabilities",
+            },
+            {
+                name: "Cancellation options",
+            },
+            {
+                name: "Our COVID-19 Response",
+            },
+            {
+                name: "Report a neighbourhood concern",
+            }
+        ],
+    },
+    {
+        title: "Community",
+        links: [
+            {
+                name: "Airbnb.org: disaster relief housing",
+            },
+            {
+                name: "Combating discrimination",
+            }
+        ],
+    },
+    {
+        title: "Hosting",
+        links: [
+            {
+                name: "Airbnb your home",
+            },
+            {
+                name: "AirCover for Hosts",
+            },
+            {
+                name: "Explore hosting resources",
+            },
+            {
+                name: "Visit our community forum",
+            },
+            {
+                name: "How to host responsibly",
+            },
+        ],
+    },
+
+    {
+        title: "Airbnb",
+        links: [
+            {
+                name: "Newsroom",
+            },
+            {
+                name: "Learn about new features",
+            },
+            {
+                name: "Letter from our founders",
+            },
+            {
+                name: "Careers",
+            },
+            {
+                name: "Investors",
+            },
+        ],
+    },
+];
+
+export const socialMedia = [
+    {
+      id: "social-media-1",
+      icon: instagram,
+      link: "https://www.instagram.com/heyhiru",
+    },
+    {
+      id: "social-media-2",
+      icon: facebook,
+      link: "https://www.facebook.com/",
+    },
+    {
+      id: "social-media-3",
+      icon: twitter,
+      link: "https://www.twitter.com/heyhiru",
+    },
+  ];

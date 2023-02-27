@@ -33,10 +33,13 @@ import reader from "./reader.webp"
 import photographer from "./photographer.webp"
 import ghummat from "./ghummat.webp"
 import lemon from "./lemon.webp"
+import instagram from './instagram.svg';
+import facebook from './facebook.svg';
+import twitter from './twitter.svg';
 
 export {
     airbnb, grid, camel, giraf, birthdaylady, puppyman, cardman, wowlady,
     redgreen, japanlady, masi, girl, hero, man, capman, capgirl,
     miamigirl, pizzaaunty, couple, laptoplady, mexicoman, bear, bozygirl, eggchef, naninoodle, whitechef,
-    ninjachef, teacher, monk, polandchef, ranikivav, reader, photographer, ghummat, lemon
+    ninjachef, teacher, monk, polandchef, ranikivav, reader, photographer, ghummat, lemon, instagram , twitter , facebook
 };
