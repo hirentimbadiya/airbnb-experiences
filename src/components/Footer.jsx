@@ -33,7 +33,7 @@ const Footer = () => {
                 <li
                   key={link.name}
                   className={`font-poppins font-noraml 
-                  text-[16px] leading-[23px] text-primary
+                  text-[12px] leading-[23px] text-primary
                    hover:underline cursor-pointer mt-1 
                    ${index !== foot.links.length - 1 ? "mb-2" : "mb-4"}`}
                 >
